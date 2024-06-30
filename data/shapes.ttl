@@ -1,0 +1,69 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Shape to validate Location, Encounter, DateTime, and Reporter
+<http://webprotege.stanford.edu/EventShape>
+    a sh:NodeShape ;
+    sh:targetClass owl:Location, owl:Encounter, owl:DateTime, owl:Reporter ;
+    sh:property [
+        sh:path rdfs:hasCity ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasCountry ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasLatitude ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasLongitude ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasState ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasDescribedEncounterLength ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasDescription ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasUFOShape ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasEncounterLength ;
+        sh:datatype xsd:decimal ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasDateDocumented ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path rdfs:hasTime ;
+        sh:datatype xsd:time ;
+        sh:minCount 1 ;
+    ] .

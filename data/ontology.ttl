@@ -1,0 +1,270 @@
+@prefix : <urn:webprotege:ontology:2c22b247-8427-4bee-a085-0fc5d7fbe583#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:2c22b247-8427-4bee-a085-0fc5d7fbe583> .
+
+<urn:webprotege:ontology:2c22b247-8427-4bee-a085-0fc5d7fbe583> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R7d7XwkH6Y47jyYYFuZE1pe
+<http://webprotege.stanford.edu/R7d7XwkH6Y47jyYYFuZE1pe> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:label "hasEncounter" .
+
+
+###  http://webprotege.stanford.edu/RBahCqDxBTHGcWVY36mIsUn
+<http://webprotege.stanford.edu/RBahCqDxBTHGcWVY36mIsUn> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R7uxsAIOh3Sys8wKjJqnFWx> ;
+                                                         rdfs:label "hasReporter" .
+
+
+###  http://webprotege.stanford.edu/RCNfl2VZqzAEt2rXhT8RL9j
+<http://webprotege.stanford.edu/RCNfl2VZqzAEt2rXhT8RL9j> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                         rdfs:label "hasDateTime" .
+
+
+###  http://webprotege.stanford.edu/RiwgkrLsT4KpEQhhG0x2CN
+<http://webprotege.stanford.edu/RiwgkrLsT4KpEQhhG0x2CN> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                        rdfs:label "hasLocation" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R7hoUToBajx2Dqeu1J5tbGy
+<http://webprotege.stanford.edu/R7hoUToBajx2Dqeu1J5tbGy> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                         rdfs:range xsd:dateTime ;
+                                                         rdfs:label "hasDate" .
+
+
+###  http://webprotege.stanford.edu/R893eOsv8N9H7KAmxX5TgH6
+<http://webprotege.stanford.edu/R893eOsv8N9H7KAmxX5TgH6> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasArea" .
+
+
+###  http://webprotege.stanford.edu/R8IZt9uCib6gnkdwhwmYvZ7
+<http://webprotege.stanford.edu/R8IZt9uCib6gnkdwhwmYvZ7> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasDescribedEncounterLength" .
+
+
+###  http://webprotege.stanford.edu/R8kxPeP8Biug9l8EA4ez9Ra
+<http://webprotege.stanford.edu/R8kxPeP8Biug9l8EA4ez9Ra> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ,
+                                                                     <http://webprotege.stanford.edu/R7ZY0jz616pA9wOx5XwrkIO> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasCountry" .
+
+
+###  http://webprotege.stanford.edu/R8mhUJdRlEHye6GzlVs4kMu
+<http://webprotege.stanford.edu/R8mhUJdRlEHye6GzlVs4kMu> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasDescription" .
+
+
+###  http://webprotege.stanford.edu/RB5JSba6bt3VDyyi7GqBNmH
+<http://webprotege.stanford.edu/RB5JSba6bt3VDyyi7GqBNmH> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ,
+                                                                     <http://webprotege.stanford.edu/RDWJwS9tDW8ScaeTlg63gvR> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasCity" .
+
+
+###  http://webprotege.stanford.edu/RB8cWlTuVImivCi0IgdV6tE
+<http://webprotege.stanford.edu/RB8cWlTuVImivCi0IgdV6tE> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R96mLZemYTMS84uF534a4iH> ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "hasLongitude" .
+
+
+###  http://webprotege.stanford.edu/RBYM1WRPMVWsuBQE559xDoU
+<http://webprotege.stanford.edu/RBYM1WRPMVWsuBQE559xDoU> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBNE6MCTTx67C1IdFr54z0c> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasEncounterLength" .
+
+
+###  http://webprotege.stanford.edu/RBt4tWTVpKHxrWxy8Asx94r
+<http://webprotege.stanford.edu/RBt4tWTVpKHxrWxy8Asx94r> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R7uxsAIOh3Sys8wKjJqnFWx> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasOccupation" .
+
+
+###  http://webprotege.stanford.edu/RC3acr6BRopaM3XtdR9COTL
+<http://webprotege.stanford.edu/RC3acr6BRopaM3XtdR9COTL> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RLGGCopHLF1TOwY8tafjDu> ;
+                                                         rdfs:range xsd:float ;
+                                                         rdfs:label "hasLatitude" .
+
+
+###  http://webprotege.stanford.edu/RCebDruLhU3kP4nsmW5oiy7
+<http://webprotege.stanford.edu/RCebDruLhU3kP4nsmW5oiy7> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "hasUFOShape" .
+
+
+###  http://webprotege.stanford.edu/RhmI1CLzFQpW5pnPz3xyll
+<http://webprotege.stanford.edu/RhmI1CLzFQpW5pnPz3xyll> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "hasState" .
+
+
+###  http://webprotege.stanford.edu/RyCPgArfLaBtQg8DhUt5qA
+<http://webprotege.stanford.edu/RyCPgArfLaBtQg8DhUt5qA> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                        rdfs:range xsd:dateTime ;
+                                                        rdfs:label "hasDateDocumented" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf
+<http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> rdf:type owl:Class ;
+                                                        rdfs:label "Location" .
+
+
+###  http://webprotege.stanford.edu/R5KUU7xntL36XA8quH7GaE
+<http://webprotege.stanford.edu/R5KUU7xntL36XA8quH7GaE> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                        rdfs:label "Description" .
+
+
+###  http://webprotege.stanford.edu/R76UeKLu5Qaylf0evnpa877
+<http://webprotege.stanford.edu/R76UeKLu5Qaylf0evnpa877> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R7uxsAIOh3Sys8wKjJqnFWx> ;
+                                                         rdfs:label "ReporterOccupation" .
+
+
+###  http://webprotege.stanford.edu/R7ZY0jz616pA9wOx5XwrkIO
+<http://webprotege.stanford.edu/R7ZY0jz616pA9wOx5XwrkIO> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                         rdfs:label "Country" .
+
+
+###  http://webprotege.stanford.edu/R7uxsAIOh3Sys8wKjJqnFWx
+<http://webprotege.stanford.edu/R7uxsAIOh3Sys8wKjJqnFWx> rdf:type owl:Class ;
+                                                         rdfs:label "Reporter" .
+
+
+###  http://webprotege.stanford.edu/R8e9cwIHNvrVwZ4LsjHkZrd
+<http://webprotege.stanford.edu/R8e9cwIHNvrVwZ4LsjHkZrd> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                         rdfs:label "Date" .
+
+
+###  http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit
+<http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> rdf:type owl:Class ;
+                                                         rdfs:label "Encounter" .
+
+
+###  http://webprotege.stanford.edu/R96mLZemYTMS84uF534a4iH
+<http://webprotege.stanford.edu/R96mLZemYTMS84uF534a4iH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                         rdfs:label "Longitude" .
+
+
+###  http://webprotege.stanford.edu/R9PPLkEStGvp6KeIzvpXYwk
+<http://webprotege.stanford.edu/R9PPLkEStGvp6KeIzvpXYwk> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:label "DescribedEncounterLength" .
+
+
+###  http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J
+<http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> rdf:type owl:Class ;
+                                                         rdfs:label "DateTime" .
+
+
+###  http://webprotege.stanford.edu/RBNE6MCTTx67C1IdFr54z0c
+<http://webprotege.stanford.edu/RBNE6MCTTx67C1IdFr54z0c> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:label "EncounterLength" .
+
+
+###  http://webprotege.stanford.edu/RBUJ5acgMFec29rU1pUa9Zg
+<http://webprotege.stanford.edu/RBUJ5acgMFec29rU1pUa9Zg> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                         rdfs:label "DateDocumented" .
+
+
+###  http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT
+<http://webprotege.stanford.edu/RBy52QopbdDOZn8tFb7AjaT> rdf:type owl:Class ;
+                                                         rdfs:label "UFO_Sighting" .
+
+
+###  http://webprotege.stanford.edu/RCYgAZWBhrqhf20DFNCzUhJ
+<http://webprotege.stanford.edu/RCYgAZWBhrqhf20DFNCzUhJ> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R8iU1I2u6JsFU6NuPRUiTit> ;
+                                                         rdfs:label "UFOShape" .
+
+
+###  http://webprotege.stanford.edu/RDNe2NCDB0MQl3yFLvJ6FNe
+<http://webprotege.stanford.edu/RDNe2NCDB0MQl3yFLvJ6FNe> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RBG10sRMYrjNnvlU8aABX3J> ;
+                                                         rdfs:label "Time" .
+
+
+###  http://webprotege.stanford.edu/RDWJwS9tDW8ScaeTlg63gvR
+<http://webprotege.stanford.edu/RDWJwS9tDW8ScaeTlg63gvR> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                         rdfs:label "City" .
+
+
+###  http://webprotege.stanford.edu/RDbs9n2kW5fSG4qYCZ71qxH
+<http://webprotege.stanford.edu/RDbs9n2kW5fSG4qYCZ71qxH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                         rdfs:label "State" .
+
+
+###  http://webprotege.stanford.edu/RLGGCopHLF1TOwY8tafjDu
+<http://webprotege.stanford.edu/RLGGCopHLF1TOwY8tafjDu> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                        rdfs:label "Latitude" .
+
+
+###  http://webprotege.stanford.edu/RuaX34P2K3v8VSexcjzbb1
+<http://webprotege.stanford.edu/RuaX34P2K3v8VSexcjzbb1> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R0CYR62QSrYybCpR2CSwbf> ;
+                                                        rdfs:label "Area" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
